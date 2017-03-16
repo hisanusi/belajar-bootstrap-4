@@ -9,8 +9,54 @@
    <link rel="stylesheet" href="css/bootstrap.min.css"> 
   </head> 
   <body> 
+    <div class="container">
+      <h6>Alert Polos</h6>
+      <div class="alert alert-success" role="alert">
+        <strong>Login Sukses!</strong> Selamat datang Admin.
+      </div>
+      <div class="alert alert-info" role="alert">
+        <strong>Sekilas Info!</strong> Biar enak diliat, taruh kode ini di dalam class container.
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>Perhatian!</strong> Password tidak boleh kosong.
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>Bahaya!</strong> Anda yakin ingin menghapus data ini?.
+      </div>      
 
-   <h1>Hello, world!</h1> 
+      <h6>Alert dengan link</h6>
+      <div class="alert alert-success" role="alert">
+        <strong>Login Sukses!</strong> Selamat datang Admin <a href="#" class="alert-link">Ini pesan penting loh!</a>.
+      </div>
+      <div class="alert alert-info" role="alert">
+        <strong>Sekilas Info!</strong> Biar enak diliat, <a href="#" class="alert-link">Lah! kok begini?</a> taruh kode ini di dalam class container.
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>Perhatian!</strong> Password tidak boleh kosong <a href="#" class="alert-link">Kata siape?</a>.
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>Bahaya!</strong> Anda yakin ingin menghapus data ini? <a href="#" class="alert-link">Ini pesan penting loh!</a>.
+      </div>
+
+      <h6>Alert dengan heading dan paragraf</h6>
+      <div class="alert alert-info" role="alert">
+        <h1>Sekilas Info!</h1>
+        <p>Contoh paragraf yang sangat panjang sekali sehingga saya tidak tahu harus bagaimana lagi ini jadinya tulisan ini lalalala yeyeye</p>
+        <p>Contoh paragraf pendek, capek deh...</p>
+      </div>
+
+      <h6>Alert dismissible</h6>
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>  
+        <h1>Sekilas Info!</h1>
+        <p>Contoh paragraf yang sangat panjang sekali sehingga saya tidak tahu harus bagaimana lagi ini jadinya tulisan ini lalalala yeyeye</p>
+        <p>Contoh paragraf pendek, capek deh...</p>
+      </div>     
+    </div>
+
+
 
    <!-- jQuery first, then Tether, then Bootstrap JS. --> 
    <script src="js/jquery.min.js"></script> 
